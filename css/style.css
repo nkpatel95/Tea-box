@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.ac-btn {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #ff5a3c;
+  color: #fff;
+  padding: 17px 40px;
+  border-radius: 0;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all 0.3s ease 0s;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  margin-right: 15px;
+}
+
+.ac-btn::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 0%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  transition: all 0.3s;
+}
+
+.ac-btn:hover {
+  background-color: #000;
+  color: #000;
+}
+
+.ac-btn:hover::after {
+  width: 100%;
+}
+
+.ac-btn-sec {
+  display: inline-block;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  padding: 17px 60px;
+  border-radius: 0;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all 0.3s ease 0s;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.ac-btn-sec::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 0%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: black;
+  transition: all 0.3s;
+}
+
+.ac-btn-sec:hover {
+  background-color: #000;
+  color: white;
+}
+
+.ac-btn-sec:hover::after {
+  width: 100%;
+}
+
+ul li a {
+  text-decoration: orange;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline;
+  text-decoration: none;
+}
+
+ul li a {
+  color: black;
+  font-weight: 700;
+}
+
+.nav-item :hover {
+  background-color: orangered;
+}
+
+.real-estate {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.namra.fw-bolder.fs-1 {
+  font-size: 50px !important;
+}
+
+.btn.btn-outline-secondary {
+  padding: 5px 47px 5px 47px;
+}
+
+.namra-me-5 {
+  margin-right: 210px !important;
+}
+
+.search {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search:hover {
+  background-color: orangered;
+  height: 50px;
+  width: 50px;
+}
+
+.slider-text {
+  padding-left: 20px;
+  border-left: 1px solid #576466;
+  width: ;
+}
+
+.about-img-left {
+  margin-left: 30px;
+}
+
+.about-text h6 {
+  font-weight: 600;
+  font-family: var(--ltn__body-font);
+  color: red;
+}
+
+.about-text h1 {
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.about-text p {
+  max-width: 500px;
+}
+
+.residence {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
